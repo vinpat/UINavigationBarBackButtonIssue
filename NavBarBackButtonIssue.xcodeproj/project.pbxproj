@@ -25,6 +25,7 @@
 		171A3C9D18D18837005C41F7 /* Test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 171A3C9C18D18837005C41F7 /* Test2ViewController.m */; };
 		171A3CA018D18846005C41F7 /* Test3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 171A3C9F18D18846005C41F7 /* Test3ViewController.m */; };
 		171A3CA618D1C3E8005C41F7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 171A3CA518D1C3E8005C41F7 /* README.md */; };
+		171A3CA818D1C47A005C41F7 /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 171A3CA718D1C47A005C41F7 /* backButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		171A3C9E18D18846005C41F7 /* Test3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test3ViewController.h; sourceTree = "<group>"; };
 		171A3C9F18D18846005C41F7 /* Test3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test3ViewController.m; sourceTree = "<group>"; };
 		171A3CA518D1C3E8005C41F7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		171A3CA718D1C47A005C41F7 /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 		171A3C6018D18771005C41F7 /* NavBarBackButtonIssue */ = {
 			isa = PBXGroup;
 			children = (
+				171A3CA718D1C47A005C41F7 /* backButton.png */,
 				171A3C6918D18771005C41F7 /* AppDelegate.h */,
 				171A3C6A18D18771005C41F7 /* AppDelegate.m */,
 				171A3C6C18D18771005C41F7 /* Images.xcassets */,
@@ -253,6 +256,7 @@
 				171A3CA618D1C3E8005C41F7 /* README.md in Resources */,
 				171A3C6518D18771005C41F7 /* InfoPlist.strings in Resources */,
 				171A3C6D18D18771005C41F7 /* Images.xcassets in Resources */,
+				171A3CA818D1C47A005C41F7 /* backButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
