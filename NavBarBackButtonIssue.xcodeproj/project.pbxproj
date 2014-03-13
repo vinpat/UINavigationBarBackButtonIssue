@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		171A3C5B18D18771005C41F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171A3C5A18D18771005C41F7 /* Foundation.framework */; };
+		171A3C5D18D18771005C41F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171A3C5C18D18771005C41F7 /* CoreGraphics.framework */; };
+		171A3C5F18D18771005C41F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171A3C5E18D18771005C41F7 /* UIKit.framework */; };
+		171A3C6518D18771005C41F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 171A3C6318D18771005C41F7 /* InfoPlist.strings */; };
+		171A3C6718D18771005C41F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 171A3C6618D18771005C41F7 /* main.m */; };
+		171A3C6B18D18771005C41F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 171A3C6A18D18771005C41F7 /* AppDelegate.m */; };
+		171A3C6D18D18771005C41F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171A3C6C18D18771005C41F7 /* Images.xcassets */; };
+		171A3C7418D18771005C41F7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171A3C7318D18771005C41F7 /* XCTest.framework */; };
+		171A3C7518D18771005C41F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171A3C5A18D18771005C41F7 /* Foundation.framework */; };
+		171A3C7618D18771005C41F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171A3C5E18D18771005C41F7 /* UIKit.framework */; };
+		171A3C7E18D18771005C41F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 171A3C7C18D18771005C41F7 /* InfoPlist.strings */; };
+		171A3C8018D18771005C41F7 /* NavBarBackButtonIssueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 171A3C7F18D18771005C41F7 /* NavBarBackButtonIssueTests.m */; };
+		171A3C9418D18803005C41F7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 171A3C9318D18803005C41F7 /* FirstViewController.m */; };
+		171A3C9718D18814005C41F7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 171A3C9618D18814005C41F7 /* BaseViewController.m */; };
+		171A3C9A18D1882C005C41F7 /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 171A3C9918D1882C005C41F7 /* Test1ViewController.m */; };
+		171A3C9D18D18837005C41F7 /* Test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 171A3C9C18D18837005C41F7 /* Test2ViewController.m */; };
+		171A3CA018D18846005C41F7 /* Test3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 171A3C9F18D18846005C41F7 /* Test3ViewController.m */; };
+		171A3CA318D192B0005C41F7 /* UINavigationBarBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 171A3CA118D192B0005C41F7 /* UINavigationBarBackground@2x.png */; };
+		171A3CA418D192B0005C41F7 /* UINavigationBarBackground~iOS7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 171A3CA218D192B0005C41F7 /* UINavigationBarBackground~iOS7@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		171A3C7718D18771005C41F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 171A3C4F18D18771005C41F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 171A3C5618D18771005C41F7;
+			remoteInfo = NavBarBackButtonIssue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		171A3C5718D18771005C41F7 /* NavBarBackButtonIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavBarBackButtonIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		171A3C5A18D18771005C41F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		171A3C5C18D18771005C41F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		171A3C5E18D18771005C41F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		171A3C6218D18771005C41F7 /* NavBarBackButtonIssue-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavBarBackButtonIssue-Info.plist"; sourceTree = "<group>"; };
+		171A3C6418D18771005C41F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		171A3C6618D18771005C41F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		171A3C6818D18771005C41F7 /* NavBarBackButtonIssue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavBarBackButtonIssue-Prefix.pch"; sourceTree = "<group>"; };
+		171A3C6918D18771005C41F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		171A3C6A18D18771005C41F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		171A3C6C18D18771005C41F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		171A3C7218D18771005C41F7 /* NavBarBackButtonIssueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavBarBackButtonIssueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		171A3C7318D18771005C41F7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		171A3C7B18D18771005C41F7 /* NavBarBackButtonIssueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavBarBackButtonIssueTests-Info.plist"; sourceTree = "<group>"; };
+		171A3C7D18D18771005C41F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		171A3C7F18D18771005C41F7 /* NavBarBackButtonIssueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavBarBackButtonIssueTests.m; sourceTree = "<group>"; };
+		171A3C9218D18803005C41F7 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		171A3C9318D18803005C41F7 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		171A3C9518D18814005C41F7 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		171A3C9618D18814005C41F7 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		171A3C9818D1882C005C41F7 /* Test1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1ViewController.h; sourceTree = "<group>"; };
+		171A3C9918D1882C005C41F7 /* Test1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1ViewController.m; sourceTree = "<group>"; };
+		171A3C9B18D18837005C41F7 /* Test2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test2ViewController.h; sourceTree = "<group>"; };
+		171A3C9C18D18837005C41F7 /* Test2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test2ViewController.m; sourceTree = "<group>"; };
+		171A3C9E18D18846005C41F7 /* Test3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test3ViewController.h; sourceTree = "<group>"; };
+		171A3C9F18D18846005C41F7 /* Test3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test3ViewController.m; sourceTree = "<group>"; };
+		171A3CA118D192B0005C41F7 /* UINavigationBarBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UINavigationBarBackground@2x.png"; sourceTree = "<group>"; };
+		171A3CA218D192B0005C41F7 /* UINavigationBarBackground~iOS7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UINavigationBarBackground~iOS7@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		171A3C5418D18771005C41F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171A3C5D18D18771005C41F7 /* CoreGraphics.framework in Frameworks */,
+				171A3C5F18D18771005C41F7 /* UIKit.framework in Frameworks */,
+				171A3C5B18D18771005C41F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		171A3C6F18D18771005C41F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171A3C7418D18771005C41F7 /* XCTest.framework in Frameworks */,
+				171A3C7618D18771005C41F7 /* UIKit.framework in Frameworks */,
+				171A3C7518D18771005C41F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		171A3C4E18D18771005C41F7 = {
+			isa = PBXGroup;
+			children = (
+				171A3C6018D18771005C41F7 /* NavBarBackButtonIssue */,
+				171A3C7918D18771005C41F7 /* NavBarBackButtonIssueTests */,
+				171A3C5918D18771005C41F7 /* Frameworks */,
+				171A3C5818D18771005C41F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		171A3C5818D18771005C41F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				171A3C5718D18771005C41F7 /* NavBarBackButtonIssue.app */,
+				171A3C7218D18771005C41F7 /* NavBarBackButtonIssueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		171A3C5918D18771005C41F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				171A3C5A18D18771005C41F7 /* Foundation.framework */,
+				171A3C5C18D18771005C41F7 /* CoreGraphics.framework */,
+				171A3C5E18D18771005C41F7 /* UIKit.framework */,
+				171A3C7318D18771005C41F7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		171A3C6018D18771005C41F7 /* NavBarBackButtonIssue */ = {
+			isa = PBXGroup;
+			children = (
+				171A3CA118D192B0005C41F7 /* UINavigationBarBackground@2x.png */,
+				171A3CA218D192B0005C41F7 /* UINavigationBarBackground~iOS7@2x.png */,
+				171A3C6918D18771005C41F7 /* AppDelegate.h */,
+				171A3C6A18D18771005C41F7 /* AppDelegate.m */,
+				171A3C6C18D18771005C41F7 /* Images.xcassets */,
+				171A3C6118D18771005C41F7 /* Supporting Files */,
+				171A3C9218D18803005C41F7 /* FirstViewController.h */,
+				171A3C9318D18803005C41F7 /* FirstViewController.m */,
+				171A3C9518D18814005C41F7 /* BaseViewController.h */,
+				171A3C9618D18814005C41F7 /* BaseViewController.m */,
+				171A3C9818D1882C005C41F7 /* Test1ViewController.h */,
+				171A3C9918D1882C005C41F7 /* Test1ViewController.m */,
+				171A3C9B18D18837005C41F7 /* Test2ViewController.h */,
+				171A3C9C18D18837005C41F7 /* Test2ViewController.m */,
+				171A3C9E18D18846005C41F7 /* Test3ViewController.h */,
+				171A3C9F18D18846005C41F7 /* Test3ViewController.m */,
+			);
+			path = NavBarBackButtonIssue;
+			sourceTree = "<group>";
+		};
+		171A3C6118D18771005C41F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				171A3C6218D18771005C41F7 /* NavBarBackButtonIssue-Info.plist */,
+				171A3C6318D18771005C41F7 /* InfoPlist.strings */,
+				171A3C6618D18771005C41F7 /* main.m */,
+				171A3C6818D18771005C41F7 /* NavBarBackButtonIssue-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		171A3C7918D18771005C41F7 /* NavBarBackButtonIssueTests */ = {
+			isa = PBXGroup;
+			children = (
+				171A3C7F18D18771005C41F7 /* NavBarBackButtonIssueTests.m */,
+				171A3C7A18D18771005C41F7 /* Supporting Files */,
+			);
+			path = NavBarBackButtonIssueTests;
+			sourceTree = "<group>";
+		};
+		171A3C7A18D18771005C41F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				171A3C7B18D18771005C41F7 /* NavBarBackButtonIssueTests-Info.plist */,
+				171A3C7C18D18771005C41F7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		171A3C5618D18771005C41F7 /* NavBarBackButtonIssue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 171A3C8318D18771005C41F7 /* Build configuration list for PBXNativeTarget "NavBarBackButtonIssue" */;
+			buildPhases = (
+				171A3C5318D18771005C41F7 /* Sources */,
+				171A3C5418D18771005C41F7 /* Frameworks */,
+				171A3C5518D18771005C41F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavBarBackButtonIssue;
+			productName = NavBarBackButtonIssue;
+			productReference = 171A3C5718D18771005C41F7 /* NavBarBackButtonIssue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		171A3C7118D18771005C41F7 /* NavBarBackButtonIssueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 171A3C8618D18771005C41F7 /* Build configuration list for PBXNativeTarget "NavBarBackButtonIssueTests" */;
+			buildPhases = (
+				171A3C6E18D18771005C41F7 /* Sources */,
+				171A3C6F18D18771005C41F7 /* Frameworks */,
+				171A3C7018D18771005C41F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				171A3C7818D18771005C41F7 /* PBXTargetDependency */,
+			);
+			name = NavBarBackButtonIssueTests;
+			productName = NavBarBackButtonIssueTests;
+			productReference = 171A3C7218D18771005C41F7 /* NavBarBackButtonIssueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		171A3C4F18D18771005C41F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Vinod Patel";
+				TargetAttributes = {
+					171A3C5618D18771005C41F7 = {
+						DevelopmentTeam = ZS2J82S2TD;
+					};
+					171A3C7118D18771005C41F7 = {
+						TestTargetID = 171A3C5618D18771005C41F7;
+					};
+				};
+			};
+			buildConfigurationList = 171A3C5218D18771005C41F7 /* Build configuration list for PBXProject "NavBarBackButtonIssue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 171A3C4E18D18771005C41F7;
+			productRefGroup = 171A3C5818D18771005C41F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				171A3C5618D18771005C41F7 /* NavBarBackButtonIssue */,
+				171A3C7118D18771005C41F7 /* NavBarBackButtonIssueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		171A3C5518D18771005C41F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171A3CA318D192B0005C41F7 /* UINavigationBarBackground@2x.png in Resources */,
+				171A3CA418D192B0005C41F7 /* UINavigationBarBackground~iOS7@2x.png in Resources */,
+				171A3C6518D18771005C41F7 /* InfoPlist.strings in Resources */,
+				171A3C6D18D18771005C41F7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		171A3C7018D18771005C41F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171A3C7E18D18771005C41F7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		171A3C5318D18771005C41F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171A3C9718D18814005C41F7 /* BaseViewController.m in Sources */,
+				171A3C9A18D1882C005C41F7 /* Test1ViewController.m in Sources */,
+				171A3CA018D18846005C41F7 /* Test3ViewController.m in Sources */,
+				171A3C9418D18803005C41F7 /* FirstViewController.m in Sources */,
+				171A3C9D18D18837005C41F7 /* Test2ViewController.m in Sources */,
+				171A3C6B18D18771005C41F7 /* AppDelegate.m in Sources */,
+				171A3C6718D18771005C41F7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		171A3C6E18D18771005C41F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171A3C8018D18771005C41F7 /* NavBarBackButtonIssueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		171A3C7818D18771005C41F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 171A3C5618D18771005C41F7 /* NavBarBackButtonIssue */;
+			targetProxy = 171A3C7718D18771005C41F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		171A3C6318D18771005C41F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				171A3C6418D18771005C41F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		171A3C7C18D18771005C41F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				171A3C7D18D18771005C41F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		171A3C8118D18771005C41F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vinod Patel (2S2DLL65MZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vinod Patel (2S2DLL65MZ)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		171A3C8218D18771005C41F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vinod Patel (2S2DLL65MZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vinod Patel (2S2DLL65MZ)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		171A3C8418D18771005C41F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Vercingetorix Technologies (ZS2J82S2TD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Vercingetorix Technologies (ZS2J82S2TD)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavBarBackButtonIssue/NavBarBackButtonIssue-Prefix.pch";
+				INFOPLIST_FILE = "NavBarBackButtonIssue/NavBarBackButtonIssue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "071DEDF9-9E7B-4E2C-A613-2E69E87E3543";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		171A3C8518D18771005C41F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Vercingetorix Technologies (ZS2J82S2TD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Vercingetorix Technologies (ZS2J82S2TD)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavBarBackButtonIssue/NavBarBackButtonIssue-Prefix.pch";
+				INFOPLIST_FILE = "NavBarBackButtonIssue/NavBarBackButtonIssue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "071DEDF9-9E7B-4E2C-A613-2E69E87E3543";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		171A3C8718D18771005C41F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NavBarBackButtonIssue.app/NavBarBackButtonIssue";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavBarBackButtonIssue/NavBarBackButtonIssue-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NavBarBackButtonIssueTests/NavBarBackButtonIssueTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		171A3C8818D18771005C41F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NavBarBackButtonIssue.app/NavBarBackButtonIssue";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavBarBackButtonIssue/NavBarBackButtonIssue-Prefix.pch";
+				INFOPLIST_FILE = "NavBarBackButtonIssueTests/NavBarBackButtonIssueTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		171A3C5218D18771005C41F7 /* Build configuration list for PBXProject "NavBarBackButtonIssue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				171A3C8118D18771005C41F7 /* Debug */,
+				171A3C8218D18771005C41F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		171A3C8318D18771005C41F7 /* Build configuration list for PBXNativeTarget "NavBarBackButtonIssue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				171A3C8418D18771005C41F7 /* Debug */,
+				171A3C8518D18771005C41F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		171A3C8618D18771005C41F7 /* Build configuration list for PBXNativeTarget "NavBarBackButtonIssueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				171A3C8718D18771005C41F7 /* Debug */,
+				171A3C8818D18771005C41F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 171A3C4F18D18771005C41F7 /* Project object */;
+}
