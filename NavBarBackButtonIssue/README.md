@@ -9,3 +9,9 @@ There is back button displayed for first UIViewController in stack of UINavigati
 
 Method used for displaying view controllers as follow. 
 [self.navigationController setViewControllers:@[controller] animated:YES];
+
+Image refered below :
+
+<p align="center">
+  <img src="https://github.com/vinpat/UINavigationBarBackButtonIssue/blob/master/NavBarBackButtonIssue/backButton.png?raw=true" alt="Reference Image"/>
+</p>
