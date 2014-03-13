@@ -1,7 +1,7 @@
 UINavigationBarBackButtonIssue
 ==============================
 
-There is back button displayed for first UIViewController in stack of UINavigationController, I hope which is bug related to iOS 7.1 
+There is back button displayed for first UIViewController in stack of UINavigationController, I hope this is bug related to iOS 7.1 
 
 1. if no title set 
 2. If title set (self.navigationItem.title = @"Test 2") 
