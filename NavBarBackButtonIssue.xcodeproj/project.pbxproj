@@ -24,8 +24,7 @@
 		171A3C9A18D1882C005C41F7 /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 171A3C9918D1882C005C41F7 /* Test1ViewController.m */; };
 		171A3C9D18D18837005C41F7 /* Test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 171A3C9C18D18837005C41F7 /* Test2ViewController.m */; };
 		171A3CA018D18846005C41F7 /* Test3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 171A3C9F18D18846005C41F7 /* Test3ViewController.m */; };
-		171A3CA318D192B0005C41F7 /* UINavigationBarBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 171A3CA118D192B0005C41F7 /* UINavigationBarBackground@2x.png */; };
-		171A3CA418D192B0005C41F7 /* UINavigationBarBackground~iOS7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 171A3CA218D192B0005C41F7 /* UINavigationBarBackground~iOS7@2x.png */; };
+		171A3CA618D1C3E8005C41F7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 171A3CA518D1C3E8005C41F7 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,8 +64,7 @@
 		171A3C9C18D18837005C41F7 /* Test2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test2ViewController.m; sourceTree = "<group>"; };
 		171A3C9E18D18846005C41F7 /* Test3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test3ViewController.h; sourceTree = "<group>"; };
 		171A3C9F18D18846005C41F7 /* Test3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test3ViewController.m; sourceTree = "<group>"; };
-		171A3CA118D192B0005C41F7 /* UINavigationBarBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UINavigationBarBackground@2x.png"; sourceTree = "<group>"; };
-		171A3CA218D192B0005C41F7 /* UINavigationBarBackground~iOS7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UINavigationBarBackground~iOS7@2x.png"; sourceTree = "<group>"; };
+		171A3CA518D1C3E8005C41F7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,8 +124,6 @@
 		171A3C6018D18771005C41F7 /* NavBarBackButtonIssue */ = {
 			isa = PBXGroup;
 			children = (
-				171A3CA118D192B0005C41F7 /* UINavigationBarBackground@2x.png */,
-				171A3CA218D192B0005C41F7 /* UINavigationBarBackground~iOS7@2x.png */,
 				171A3C6918D18771005C41F7 /* AppDelegate.h */,
 				171A3C6A18D18771005C41F7 /* AppDelegate.m */,
 				171A3C6C18D18771005C41F7 /* Images.xcassets */,
@@ -149,6 +145,7 @@
 		171A3C6118D18771005C41F7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				171A3CA518D1C3E8005C41F7 /* README.md */,
 				171A3C6218D18771005C41F7 /* NavBarBackButtonIssue-Info.plist */,
 				171A3C6318D18771005C41F7 /* InfoPlist.strings */,
 				171A3C6618D18771005C41F7 /* main.m */,
@@ -253,8 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				171A3CA318D192B0005C41F7 /* UINavigationBarBackground@2x.png in Resources */,
-				171A3CA418D192B0005C41F7 /* UINavigationBarBackground~iOS7@2x.png in Resources */,
+				171A3CA618D1C3E8005C41F7 /* README.md in Resources */,
 				171A3C6518D18771005C41F7 /* InfoPlist.strings in Resources */,
 				171A3C6D18D18771005C41F7 /* Images.xcassets in Resources */,
 			);
@@ -488,6 +484,7 @@
 				171A3C8518D18771005C41F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		171A3C8618D18771005C41F7 /* Build configuration list for PBXNativeTarget "NavBarBackButtonIssueTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +493,7 @@
 				171A3C8818D18771005C41F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
